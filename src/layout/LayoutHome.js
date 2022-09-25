@@ -17,8 +17,7 @@ export function Paginas() {
     setUsuario  (props.location.state.USERNAMEDIG);
     setDpto    (props.location.state.DPTO);    
   }, []);
-  console.log('Usuario -> '+Usuario)   
-  console.log('Dpto   -> '+DPTO)  
+ 
   return (
  <div>
  
